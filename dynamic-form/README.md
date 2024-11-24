@@ -30,9 +30,12 @@ Public/dynamic-form.git
     npm start
     Open http://localhost:3000 in your browser to view the app.
    ```
+
 ### Usage
+
 Import the DynamicForm component into your application and pass a configuration object as a prop.
 Example:
+
 ```javascript
 import React from "react";
 import DynamicForm from "./DynamicForm";
@@ -109,6 +112,7 @@ npm test
 
 ## Build for Production
 To create a production build:
+
 ```
 npm run build
 ```
