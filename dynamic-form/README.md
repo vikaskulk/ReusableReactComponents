@@ -24,14 +24,17 @@ DynamicForm is a reusable React component for building dynamic forms based on a 
 Public/dynamic-form.git
    cd dynamic-form
    npm install
+   ```
 2. Run the development server:
+   ```
     npm start
     Open http://localhost:3000 in your browser to view the app.
-
+   ```
 ### Usage
 Import the DynamicForm component into your application and pass a configuration object as a prop.
 
 Example:
+```
 import React from "react";
 import DynamicForm from "./DynamicForm";
 
@@ -57,6 +60,7 @@ const App = () => {
 };
 
 export default App;
+```
 
 ## Configuration Schema
 ### Fields
@@ -100,11 +104,15 @@ export default App;
 ## Running Tests
 To run tests:
 
+```
 npm test
+```
 
 ## Build for Production
 To create a production build:
+```
 npm run build
+```
 
 ## Contributing
 Contributions are welcome! Please follow these steps:

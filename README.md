@@ -36,7 +36,6 @@ The **DynamicForm** component is located in the `dynamic-form` folder. It allows
 
 Start by cloning the repository to your local machine:
 
-```bash
 git clone https://github.com/vikaskulk/ReusableReactComponents.git
 cd ReusableReactComponents
 
@@ -49,24 +48,25 @@ To install the required dependencies for the **DynamicForm** component, follow t
    ```bash
    git clone https://github.com/vikaskulk/ReusableReactComponents.git
    cd ReusableReactComponents
-
+   ```
 2. Navigate to the dynamic-form folder and install the dependencies:
 
 Using npm:
+```
 cd dynamic-form
 npm install
-
+```
 Or, if you use Yarn:
-
+```
 cd dynamic-form
 yarn install
-
+```
 ## Usage
 After installing the dependencies, you can import and use the DynamicForm component in your React application.
 
 ### Example Usage
 Here’s an example of how to use the DynamicForm component in a React app:
-
+```
 import React, { useState } from 'react';
 import DynamicForm from './dynamic-form/DynamicForm'; // Update the path if necessary
 
@@ -93,7 +93,7 @@ const App = () => {
 };
 
 export default App;
-
+```
 ## Configuration
 You can customize the form by passing a JSON configuration that defines the fields and validation rules. For example
 [
@@ -119,9 +119,9 @@ You can customize the form by passing a JSON configuration that defines the fiel
 
 Run the App
 To start the app locally, you can run:
-
+```
 npm start
-
+```
 This will start the React app in development mode, typically accessible at http://localhost:3000.
 
 
