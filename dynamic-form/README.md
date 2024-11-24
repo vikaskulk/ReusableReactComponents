@@ -21,7 +21,6 @@ DynamicForm is a reusable React component for building dynamic forms based on a 
 1. Clone the repository:
    ```bash
 	git clone https://github.com/vikaskulk/ReusableReactComponents
-	Public/dynamic-form.git
 	cd dynamic-form
 	npm install
    ```
